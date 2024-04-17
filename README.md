@@ -10,11 +10,11 @@ The system works by recognizing faces using the Xbox 360 camera. Once it finds i
 
 ## Hardware Required:
 
-- Nvidia Jetson Nano
+- Nvidia Jetson Nano with a 4 Amp power adapter. Do not try to feed it through the USB connector as it does not provide enough power
 - SD card with Ubuntu 20.4 Focal installed that comes with Jetpack 4.6. Do NOT install any other Ubuntu as the camera will not work!
 - Robotic Arm kit with 6 axis
 - 6 servos
-- PCA9685 controller
+- PCA9685 controller plus a 6V 3 Amp power supply: you can just use a mobile charger using the red and black wires of the USB cable
 - Xbox Kinect 360 (NOT the Kinect One: even though the code implements also the V2, it does not use it at this moment)
 - Camera IMX219 with a long flat cable
 
