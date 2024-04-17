@@ -15,7 +15,7 @@ The system works by recognizing faces using the Xbox 360 camera. Once it finds i
 - Robotic Arm kit with 6 axis
 - 6 servos
 - PCA9685 controller
-- Xbox Kinect 360 (NOT the Kinect One)
+- Xbox Kinect 360 (NOT the Kinect One: even though the code implements also the V2, it does not use it at this moment)
 - Camera IMX219 with a long flat cable
 
 You will have to install the libraries Adafruit ServoKit, OpenCV, and Freenect V1. There are excellent guides at [this link](https://naman5.wordpress.com/2014/06/24/experimenting-with-kinect-using-opencv-python-and-open-kinect-libfreenect/) for the Kinect and [this link](https://github.com/AnbuKumar-maker/AI-on-Jetson-Nano/blob/master/Installing%20PCA9685%20Motor%20Driver%20in%20Jetson%20Nano) for the controller and servos.
@@ -25,3 +25,4 @@ You will have to install the libraries Adafruit ServoKit, OpenCV, and Freenect V
 1. Make the other axis work, as now it only works with 1.
 2. Use the Kinect's depth sensor to measure the distance of the face and move the axis accordingly.
 3. Recode this in C++ or Rust in order to make it faster.
+4. Use the Kinect V2 to improve recognition
