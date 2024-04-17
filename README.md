@@ -13,6 +13,10 @@ You will need for hardware:
 3 - Robotic Arm kit
 4 - 6 servos
 7 - PCA9685 controller
+8 - Xbox Kinect 360 (NOT the Kinect One)
+9 - Camera IMX219
+
+You will have to install the libraries adafruit servokit, OpenCV, and Freenect 1
 
 TO DO:
 1 - Make the other axis work, as now it only works with 1
