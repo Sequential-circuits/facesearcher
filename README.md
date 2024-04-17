@@ -11,7 +11,7 @@ The system works by recognizing faces using the Xbox 360 camera. Once it finds i
 ## Hardware Required:
 
 - Nvidia Jetson Nano
-- SSD card with Ubuntu 20.4 Focal installed that comes with Jetpack 4.6. Do NOT install any other Ubuntu as the camera will not work!
+- SD card with Ubuntu 20.4 Focal installed that comes with Jetpack 4.6. Do NOT install any other Ubuntu as the camera will not work!
 - Robotic Arm kit with 6 axis
 - 6 servos
 - PCA9685 controller
