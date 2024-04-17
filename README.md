@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robotic Arm Project</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-            font-size: 24px;
-        }
-        p {
-            color: #666;
-            font-size: 16px;
-        }
-        ul {
-            list-style-type: disc;
-            color: #666;
-            font-size: 16px;
-            margin-left: 20px;
-        }
-    </style>
-</head>
-<body>
     <h1>Robotic Arm Project</h1>
     <p>This is a project of a robotic arm which uses 2 cameras to search for a face and once it finds it locks on to it. I showed this at a presentation at the Bletchley Park AI user group. There is a demo video in this repo to get an idea of how it is made and works.</p>
 
@@ -55,5 +26,3 @@
         <li>Use the Kinect's depth sensor to measure the distance of the face and move the axis accordingly</li>
         <li>Recode this in C++ or Rust in order to make it faster</li>
     </ol>
-</body>
-</html>
