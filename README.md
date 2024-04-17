@@ -9,7 +9,10 @@ The AI face recognition is a cheesy Haar Cascade (yup, that stuff is still aroun
 
 You will need for hardware:
 1 - Nvidia Jetson Nano
-2 - SSD card with Ubuntu 20.4 Focal installed
+2 - SSD card with Ubuntu 20.4 Focal installed that comes with Jetpack 4. Do NOT install any other Ubuntu as the camera will not work!
+3 - Robotic Arm kit
+4 - 6 servos
+7 - PCA9685 controller
 
 TO DO:
 1 - Make the other axis work, as now it only works with 1
