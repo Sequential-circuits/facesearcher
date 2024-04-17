@@ -1,4 +1,4 @@
-# Robotic Arm Project
+# Face searching robotic arm
 
 This is a project of a robotic arm which uses 2 cameras to search for a face and once it finds it locks on to it. I showed this at a presentation at the Bletchley Park AI user group. There is a demo video in this repo to get an idea of how it is made and works.
 
