@@ -2,7 +2,7 @@
 
 This is a project of a robotic arm which uses 2 cameras to search for a face and once it finds it locks on to it. I showed this at a presentation at the Bletchley Park AI user group. There is a demo video in this repo to get an idea of how it is made and works.
 
-It uses both a camera and a 3D sensor of a Kinect. When the Kinect finds a face, it proceeds to move the arm until it is able to find it again using a camera at the tip of the arm. Once this 2nd camera finds the face, it locks onto it and stops searching.
+It uses both a camera and a 3D sensor of a Kinect 360. These are great as they include a camera and a depth sensor and they are much cheaper than RGBD cameras. When the Kinect finds a face, it proceeds to move the arm until it is able to find it again using a camera at the tip of the arm. Once this 2nd camera finds the face, it locks onto it and stops searching.
 
 It employs an Nvidia Jetson Nano 4 Gb attached to a PCA9685 board controlling 6 servos. Software developed using Python and the libraries Adafruit ServoKit for the servos, OpenCV for the camera, and Freenect for the Kinect.
 
